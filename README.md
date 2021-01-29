@@ -7,7 +7,7 @@ Update Database username and password and url (by default its localhost)
 Run the application as java application with following arguments 
 server configuration.yml
 
-To create a table in your mysql database use this query. (We have used mysql database to store and access the responses)SQL script to create database: 
+To create a table in your mysql database use this query. (We have used mysql database to store and access the responses, for quick reference I have updated my demo.sql db with this)SQL script to create database: 
 
 CREATE TABLE `geolocation` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
